@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage ('test') {
       steps {
-        sh 'scripts/test.sh'
+        sh 'chmod 0700 scripts/test.sh && scripts/test.sh'
       }
     }
   }
