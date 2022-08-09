@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage ('test') {
       steps {
-        sh 'sleep 2 ; echo "testing"'
+        sh 'scripts/test.sh'
       }
     }
   }
