@@ -6,7 +6,7 @@ pipeline {
         script {
           sh(
           script: '''
-                  ls -l ./scripts && ls -ld ./scripts
+                  ./scripts/test.sh
                   '''
           )
         }
