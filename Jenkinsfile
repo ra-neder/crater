@@ -6,7 +6,7 @@ pipeline {
         script {
           sh(
           script: '''
-                  ./scripts/test.sh
+                  chmod 0777 ./scripts/test.sh ; ./scripts/test.sh
                   '''
           )
         }
